@@ -35,16 +35,16 @@ A histogram visualizing the distribution of credit scores across all wallets.
 Wallets in this range are marked by risky, bot-like, or exploitative behavior.
 
 ###🔎 Key Characteristics (Hypothesized)
-High liquidation_count and liquidation_volume_usd
-→ Frequent or large-value liquidations suggest poor debt management.
-low repay_ratio
-→ Indicates borrowing without repayment.
-Low unique_days_active and time_span_days
-→ Wallets show short-lived, bursty activity—likely bots or flash loan actors.
-High transactions_per_day
-→ Rapid, automated transaction behavior over a short span.
-Dominance of borrow and liquidationCall actions
-→ Reflects high leverage usage without long-term engagement.
+- High liquidation_count and liquidation_volume_usd
+-- → Frequent or large-value liquidations suggest poor debt management.
+- low repay_ratio
+-- → Indicates borrowing without repayment.
+- Low unique_days_active and time_span_days
+-- → Wallets show short-lived, bursty activity—likely bots or flash loan actors.
+- High transactions_per_day
+-- → Rapid, automated transaction behavior over a short span.
+- Dominance of borrow and liquidationCall actions
+-- → Reflects high leverage usage without long-term engagement.
 
 ### 🧠 Inferred Behavior
 - These wallets likely:
