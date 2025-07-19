@@ -36,15 +36,15 @@ Wallets in this range are marked by risky, bot-like, or exploitative behavior.
 
 ###🔎 Key Characteristics (Hypothesized)
 - High liquidation_count and liquidation_volume_usd
--- → Frequent or large-value liquidations suggest poor debt management.
+ → Frequent or large-value liquidations suggest poor debt management.
 - low repay_ratio
--- → Indicates borrowing without repayment.
+ → Indicates borrowing without repayment.
 - Low unique_days_active and time_span_days
--- → Wallets show short-lived, bursty activity—likely bots or flash loan actors.
+ → Wallets show short-lived, bursty activity—likely bots or flash loan actors.
 - High transactions_per_day
--- → Rapid, automated transaction behavior over a short span.
+ → Rapid, automated transaction behavior over a short span.
 - Dominance of borrow and liquidationCall actions
--- → Reflects high leverage usage without long-term engagement.
+ → Reflects high leverage usage without long-term engagement.
 
 ### 🧠 Inferred Behavior
 - These wallets likely:
@@ -78,7 +78,8 @@ Are ideal candidates for DeFi credit/lending programs
 ### ⚠️ Insights and Limitations
 Heuristic Dependency
 The scoring system is based on a heuristic proxy. While informative, it simplifies complex behavior.
- Feature Importance
+
+#### Feature Importance
 Analyzing the LightGBM model's feature importances can highlight key predictive behaviors.
 Limited Scope
 Only Aave V2 data is used. A comprehensive credit profile could benefit from:
@@ -90,6 +91,6 @@ Wallet behavior changes rapidly. This static score might not reflect the most up
 Future work could include dynamic or time-weighted scoring.
 
 ### 🧠 Conclusion
-This analysis offers a foundational look at credit behavior in the Aave V2 ecosystem.
-By clustering and analyzing score segments, we gain insights into user behavior, financial reliability, and protocol risk.
-Further analysis on transaction histories, feature importance, or cluster-based behavior groups can enhance this framework.
+- This analysis offers a foundational look at credit behavior in the Aave V2 ecosystem.
+- By clustering and analyzing score segments, we gain insights into user behavior, financial reliability, and protocol risk.
+- Further analysis on transaction histories, feature importance, or cluster-based behavior groups can enhance this framework.
