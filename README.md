@@ -91,7 +91,7 @@ DeFi-Credit-Scoring/
 └── README.md                 # Project overview
 ```
 
-##🚀 Extensibility
+### 4.🚀 Extensibility
 
 This framework is modular and can be enhanced further:
 - Advanced Features: Time-decay metrics, transaction graph features, anomaly detection
@@ -99,3 +99,21 @@ This framework is modular and can be enhanced further:
 - Model Improvements: Try neural nets, stacking, or AutoML
 - Real-Time Scoring: Adapt for streaming inputs
 - Domain Expertise: Calibrate heuristics with expert feedback
+
+### 5.🏃‍♀️ Usage Instructions
+
+- 1. Download Dataset
+Place the user-wallet-transactions.json file in the project directory.
+
+- 2. Install Dependencies
+```
+pip install pandas numpy lightgbm matplotlib seaborn
+```
+- 3. Run Script
+  4. python score_generator.py
+- 4. Output
+- ✅ Console preview of sample scores
+- 📄 wallet_credit_scores.csv: Full output
+- 📊 Histogram of score distribution
+ <img width="1237" height="800" alt="image" src="https://github.com/user-attachments/assets/ad7ce1f7-c05d-44b2-b3c3-31d594724180" />
+
